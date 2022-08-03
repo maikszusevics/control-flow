@@ -2,7 +2,6 @@
 
 ```
 
-
 dictionary = {
     "key1": "value",
     "key2": "value2",
@@ -19,9 +18,8 @@ for x in dictionary:
 for item in dictionary.values():  # this prints only values
     print(item)
 
-for key in dictionary:
-    print(key, " : ", dictionary[key]) # this prints key and value pairs
-
+for key, value in dictionary.items():
+    print(key, " : ", value) # this prints key and value pairs
 ```
 the output is:
 
