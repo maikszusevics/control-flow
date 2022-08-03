@@ -23,3 +23,6 @@ for key in dictionary:
     print(key, " : ", dictionary[key]) # this prints key and value pairs
 
 ```
+the output is:
+
+![image](https://user-images.githubusercontent.com/110176257/182580191-7d2153c2-5834-436d-b81f-68088165f6f3.png)
